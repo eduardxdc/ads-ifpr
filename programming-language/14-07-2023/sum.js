@@ -5,5 +5,9 @@ console.log('make a sum of two numbers:');
 const firstNum = Number(readline.question('enter a first number: '));
 const secondNum = Number(readline.question('enter a second number: '));
 
-const sum = firstNum + secondNum;
-console.log('your sum is: ' + sum);
+if(!isNaN(firstNum) && !isNaN(secondNum)){
+    const sum = firstNum + secondNum;
+    console.log('your sum is: ' + sum);
+} else {
+    console.log('please enter valid numbers!');
+}

@@ -7,6 +7,9 @@ const firstFloat = parseFloat(readline.question('enter your first floating numbe
 const secondFloat = parseFloat(readline.question('enter your second floating number: '));
 const thirdFloat = parseFloat(readline.question('enter your third floating number: '));
 
-const result = (firstFloat + secondFloat + thirdFloat) / 3;
-
-console.log('your average is: ' + result.toFixed(2));
+if(!isNaN(firstFloat) && !isNaN(secondFloat) && !isNaN(thirdFloat)){
+    const result = (firstFloat + secondFloat + thirdFloat) / 3;
+    console.log('your average is: ' + result.toFixed(2));
+} else {
+    console.log('please enter valid numbers!');
+}
