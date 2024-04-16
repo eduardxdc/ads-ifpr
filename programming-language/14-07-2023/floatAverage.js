@@ -1,15 +1,11 @@
 // #3 - Create a program that prompts the user to type in three floating numbers and displays the average between those three numbers;
-
 const readline = require('readline-sync');
 
 console.log('averaging 3 floating numbers!');
 
-console.log('enter your first floating number:');
-const firstFloat = parseFloat(readline.question());
-console.log('enter your second floating number:');
-const secondFloat = parseFloat(readline.question());
-console.log('enter your third floating number:');
-const thirdFloat = parseFloat(readline.question());
+const firstFloat = parseFloat(readline.question('enter your first floating number: '));
+const secondFloat = parseFloat(readline.question('enter your second floating number: '));
+const thirdFloat = parseFloat(readline.question('enter your third floating number: '));
 
 const result = (firstFloat + secondFloat + thirdFloat) / 3;
 

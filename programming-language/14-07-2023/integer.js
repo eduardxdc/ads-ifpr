@@ -1,8 +1,7 @@
 // #1 - create a program that prompts the user to enter an integer and displays that number on the console;
 const readline = require("readline-sync");
 
-console.log("enter an integer: ");
-const inputUser = readline.question();
+const inputUser = readline.question("enter an integer: ");
 
 function isInteger(value) {
   return parseInt(value) === parseFloat(value) && !isNaN(value);
