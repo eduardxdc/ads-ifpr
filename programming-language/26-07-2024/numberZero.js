@@ -1,7 +1,7 @@
 // #02 - selection structures;
 const readline = require('readline-sync');
 
-const zero = Number(readline.question('enter a number: '));
+const zero = Number(readline.question('find out if your number is greater or less than zero: '));
 
 if(isNaN(zero)){
     console.log('enter a valid number!');
