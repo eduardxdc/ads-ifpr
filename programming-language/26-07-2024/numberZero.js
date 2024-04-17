@@ -1,5 +1,4 @@
-// 02 - selection structures;
-
+// #02 - selection structures;
 const readline = require('readline-sync');
 
 const zero = Number(readline.question('enter a number: '));
