@@ -11,8 +11,12 @@ const noteOne = Number(readline.question("enter your first note: "));
 const noteTwo = Number(readline.question("enter your second note: "));
 const average = (noteOne + noteTwo) / 2;
 
-if(average >= 7){
+if(average >= 70 && average < 100){
     console.log(`approved! your grade is ${average}`);
-} else if(average === 10){
-    console.log(`approved with distinction! your grade is ${average}`)
+} else if(average >= 100){
+    console.log(`approved with distinction! your grade is ${average}`);
+} else if(average < 70){
+    console.log(`failed! your grade is ${average}`);
+} else if (isNaN(average)){
+    console.log('please enter a valid note!')
 }
