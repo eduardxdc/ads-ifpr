@@ -1,10 +1,10 @@
 /*
- * #02 - Develop a program that displays information about the type of climate, according to the 
- * Following conditions: 
- * If the temperature is up to 16 degrees, the weather is cold; 
- * If the temperature is between 16 and 22 degrees, the weather is pleasant; 
- * If the temperature is between 22 and 32 degrees, the weather is hot; 
- * If the temperature is above 32 degrees, the weather is too hot. 
+ * #02 - develop a program that displays information about the type of climate, according to the 
+ * following conditions: 
+ * if the temperature is up to 16 degrees, the weather is cold; 
+ * if the temperature is between 16 and 22 degrees, the weather is pleasant; 
+ * if the temperature is between 22 and 32 degrees, the weather is hot; 
+ * if the temperature is above 32 degrees, the weather is too hot. 
 */
 const readline = require('readline-sync');
 

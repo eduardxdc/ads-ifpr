@@ -1,11 +1,11 @@
-/* #03 - Develop a program that asks in which shift the student studies, ask to type: 
-* M-morning; 
-* V-afternoon; 
-* N-nocturnal; 
-* Print the message "Good morning!", "Good afternoon!" or "Good evening!" or "Invalid value!", as appropriate. 
+/* 
+ * #03 - develop a program that asks in which shift the student studies, ask to type: 
+ * m-morning; 
+ * v-afternoon; 
+ * n-nocturnal; 
+ * print the message "good morning!", "good afternoon!" or "good evening!" or "invalid value!", as appropriate. 
 */
 const readline = require('readline-sync');
-
 
 const shifts = readline.question('in which shift you study, choose from the options: "M" for morning, "V" for afternoon and "N" for nocturnal: ');
 
