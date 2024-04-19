@@ -24,8 +24,5 @@ Salário Líquido : RS 935,00
 const readline = require('readline-sync');
 
 console.log('Descubra o cálculo do seu imposto de renda!');
-
-const hour = readline.question('insira a quantidade de horas trabalhadas: ');
-const hourValue = readline.question('insira o valor da sua hora: ');
-
-const wage = hourValue * hour;
+const hour = readline.question('digite a quantidade de horas trabalhadas: ');
+console.log(`suas horas de trabalho são: ${hour}`);
