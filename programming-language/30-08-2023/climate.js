@@ -4,7 +4,7 @@
  * if the temperature is up to 16 degrees, the weather is cold; 
  * if the temperature is between 16 and 22 degrees, the weather is pleasant; 
  * if the temperature is between 22 and 32 degrees, the weather is hot; 
- * if the temperature is above 32 degrees, the weather is too hot. 
+ * if the temperature is above 32 degrees, the weather is too hot;
 */
 const readline = require('readline-sync');
 

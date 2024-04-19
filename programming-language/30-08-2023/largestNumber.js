@@ -1,4 +1,4 @@
-// #01 - make a program that reads two numbers, check the larger one;
+// #01 - make a program that reads two numbers, check the larger one; 
 const readline = require('readline-sync');
 
 console.log('enter two numbers and check which one is larger!')
