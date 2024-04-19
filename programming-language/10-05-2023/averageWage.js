@@ -1,7 +1,7 @@
 /**
  * Create a program that calculates the average salary of a company,
  * asking the user for the employee schedule and salaries,
- * and returning the average salary.
+ * and returning the average salary;
  */
 
 const readline = require('readline-sync');

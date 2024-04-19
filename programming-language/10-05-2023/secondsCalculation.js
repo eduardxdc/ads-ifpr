@@ -1,7 +1,7 @@
 /**
  * Write a program that stores a time (hour, minute and second) in variables,
  * then determines and displays the number of seconds that have passed since 0:00:00
- * and the number of seconds left until midnight.
+ * and the number of seconds left until midnight;
  */
 
 const readline = require("readline-sync");
