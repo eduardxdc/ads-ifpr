@@ -1,4 +1,4 @@
-// #01 - selection structures;
+// #01 - selection structures; 
 const readline = require('readline-sync');
 
 const age = Number(readline.question('enter your age: '));

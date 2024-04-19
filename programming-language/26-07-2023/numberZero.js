@@ -1,4 +1,4 @@
-// #02 - selection structures;
+// #02 - selection structures; 
 const readline = require('readline-sync');
 
 const zero = Number(readline.question('find out if your number is greater or less than zero: '));

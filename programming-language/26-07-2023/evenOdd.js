@@ -1,4 +1,4 @@
-// #03 - selection structures;
+// #03 - selection structures; 
 
 const readline = require('readline-sync');
 
