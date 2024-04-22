@@ -3,7 +3,7 @@
  * m-morning; 
  * v-afternoon; 
  * n-nocturnal; 
- * print the message "good morning!", "good afternoon!" or "good evening!" or "invalid value!", as appropriate. 
+ * print the message "good morning!", "good afternoon!" or "good evening!" or "invalid value!", as appropriate; 
 */
 const readline = require('readline-sync');
 
